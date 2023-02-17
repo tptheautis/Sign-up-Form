@@ -20,6 +20,18 @@ button {
     border-radius: 10px;
 }
 
+.odin {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+}
+
+.halie {
+    color: white;
+    position: absolute;
+    margin-top: 800px;
+}
+
 .main-container {
     display: flex;
     height: 100vh;
@@ -28,18 +40,34 @@ button {
 .rows {
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
     width: 65%;
 }
 
 .container-column {
-    border: solid 1px black;
     display: flex;
     width: 35%;
+    align-items: center;
+    justify-content: center;
 }
 
 .container-row1, .container-row2, .container-row3 {
     display: flex;
-    border: 1px solid black;
+    margin: 30px;
     flex: 1;
+}
+
+.container-row1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-weight: 400;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.container-row2 {
+    display: flex;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 20px;
+    flex-wrap: wrap;
 }
