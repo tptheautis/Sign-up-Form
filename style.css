@@ -17,7 +17,11 @@ img {
 button {
     width: 200px;
     height: 50px;
-    border-radius: 10px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: #181818;
 }
 
 .odin {
@@ -67,7 +71,28 @@ button {
 
 .container-row2 {
     display: flex;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 20px;
     flex-wrap: wrap;
+    gap: 50px;
+    background-color: #181818;
+    color: white;
+    border-radius: 20px;
+}
+
+.form-column1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.form-column2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
 }
